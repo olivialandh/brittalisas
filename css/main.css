@@ -1,0 +1,139 @@
+/*****html****************************/
+
+
+html, body {
+    background: lightpink;
+    padding: 0px;
+}
+
+div {
+    display: block;
+}
+
+#wrap {
+
+}
+
+.pagecontainer {
+    background: white;
+    margin: 0 auto;
+    clear: both;
+}
+
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+    background: url("../img/brittalisas_coverphoto.JPG");
+}
+
+/***********head**********************/
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 0px;
+    clear: both;
+    height: auto;
+}
+
+#logo {
+    width: 30%;
+    margin: 10% 10% 10% 15%;
+}
+
+/*********************navigation*******//
+
+#nav {
+   margin-bottom: 0px;
+}
+    #nav > ul {
+        list-style-type:none;
+        margin: 0% 5% 0% 5%;
+        padding:0;
+        overflow:hidden;
+    }
+
+        #nav > ul > li {
+            display:inline;
+            float:left;
+            background: white;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            margin: 0px 5px 0px 5px;
+        }
+
+            #nav > ul > li > a {
+                display:block;
+                padding: 7px;
+                color: black;
+            }
+
+
+/***** general*********/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+    font-family: Georgia;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0px;
+}
+
+a {
+    font-family: Georgia;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+    a:hover {
+        color: black;
+    }
+
+
+
+/*****************footer************/
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+
+footer > ul {
+    margin: 0px auto;
+    list-style-position:inside;
+}
+
+footer > ul > li {
+    float: left;
+    width:33%;
+}
+
+footer > ul > #phone {
+    list-style-image: url("../img/phone.png");
+}
+
+footer > ul > #mail {
+    list-style-image: url("../img/mail.png");
+}
+
+footer > ul > #location {
+    list-style-image: url("../img/map.png");
+}
